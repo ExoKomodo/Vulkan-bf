@@ -2250,7 +2250,10 @@ namespace Vulkan
 		public float depth = default;
 		public uint32 stencil = default;
 
-		public this() {}
+		public this() {
+			this = default;
+		}
+
 		public this(float depth_,uint32 stencil_)
 		{
 			depth = depth_;
@@ -9068,7 +9071,10 @@ public struct AccelerationStructureInstanceKHR { /*
 		public int32[4] int32 = default;
 		public uint32[4] uint32 = default;
 
-		public this() {}
+		public this() {
+			this = default;
+		}
+
 		public this(float[4] float32_,int32[4] int32_,uint32[4] uint32_)
 		{
 			float32 = float32_;
@@ -9084,7 +9090,10 @@ public struct AccelerationStructureInstanceKHR { /*
 		public ClearColorValue color = default;
 		public ClearDepthStencilValue depthStencil = default;
 
-		public this() {}
+		public this() {
+			this = default;
+		}
+
 		public this(ClearColorValue color_,ClearDepthStencilValue depthStencil_)
 		{
 			color = color_;
