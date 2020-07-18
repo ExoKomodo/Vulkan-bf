@@ -1,3 +1,4 @@
+#if BF_PLATFORM_WINDOWS
 using System;
 
 namespace Vulkan
@@ -92,3 +93,4 @@ namespace Vulkan
 		public Result<DeviceGroupPresentModeFlagsKHR, Vulkan.Result> GetGroupSurfacePresentModes2EXT(PhysicalDeviceSurfaceInfo2KHR* pSurfaceInfo) => GetGroupSurfacePresentModes2EXT<Vulkan.Win32.DispatchLoaderStatic>(pSurfaceInfo,.());
 	}
 }
+#endif
