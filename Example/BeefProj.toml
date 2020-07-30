@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Vulkan = "*", SDL2 = "*"}
+
+[Project]
+Name = "Example"
+TargetType = "BeefLib"
+StartupObject = "Program"

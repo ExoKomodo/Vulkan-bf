@@ -1,5 +1,5 @@
 FileVersion = 1
-Projects = {Vulkan = {Path = "./Vulkan"}}
+Projects = {Vulkan = {Path = "./Vulkan"}, Example = {Path = "Example"}, SDL2 = "*"}
 
 [Workspace]
-StartupProject = "Vulkan"
+StartupProject = "Example"
